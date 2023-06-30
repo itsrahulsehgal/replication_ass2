@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Header() {
     return (
         
@@ -8,9 +10,10 @@ export default function Header() {
                 <div className="whitespace-nowrap text-3xl font-'Poppins' font-light text-white relative mb-5 ml-40">
                     Wealthup is backed and supported by
                 </div>
-                <img
+                <Image
                     src="https://file.rendit.io/n/CnPxCegXHyzLzMTgmwhl.png"
                     className="min-h-0 min-w-0 self-end relative"
+                    alt='Image'
                 />
             </div>
         

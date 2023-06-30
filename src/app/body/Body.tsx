@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Body() {
     return (
         <>
@@ -8,7 +10,7 @@ export default function Body() {
             
                 <div className=" w-[767px] h-[231px] relative mt-[80px]">
                     <div className="Group9 w-[373px] h-[123px] left-0 top-0 absolute">
-                        <img className=" w-[123px] h-[123px] left-0 top-0 absolute" src="https://file.rendit.io/n/Rmzj90CPlm5TMyp00igE.png" />
+                        <Image className=" w-[123px] h-[123px] left-0 top-0 absolute" src="https://file.rendit.io/n/Rmzj90CPlm5TMyp00igE.png" alt='Image'/>
                         <div className=" left-[154px] top-[1px] absolute text-white text-[24px] font-medium">Simrin Sirur</div>
                         <div className=" left-[153px] top-[33px] absolute text-white text-[22px] font-normal">Journalist</div>
                         <div className=" left-[154px] top-[57px] absolute text-white text-[22px] font-normal">The Print, Gurugram</div>
@@ -39,14 +41,16 @@ export default function Body() {
                         </div>
                     </div>
                 </div> */}
-                <img
+                <Image
                     src="https://file.rendit.io/n/1pLpnsqMqa38F3eIQBXQ.svg"
                     className="min-w-0 relative w-4"
+                    alt='Image'
                 />
             
-                <img
+                <Image
                     src="https://file.rendit.io/n/zuEUu6XbIwnbSh6Wmz21.png"
                     className="min-w-0 relative w-min flex w-1/2"
+                    alt='Image'
                 />
 
             </div>
